@@ -37,7 +37,6 @@ services:
       - '3000:3000'
     volumes:
       - ./grafana-storage:/var/lib/grafana
-    env_file:
-      - .env
+    user: "472:0"
 volumes:
   grafana-storage: {}
