@@ -39,5 +39,6 @@ services:
       - ./grafana-storage:/var/lib/grafana
     env_file:
       - .env
+    command: ["sleep", "600"]
 volumes:
   grafana-storage: {}
