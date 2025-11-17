@@ -21,21 +21,23 @@ services:
 
   grafana:
     build:
-      context: .
       dockerfile: Dockerfile-grafana
+    image: grafana/grafana
     container_name: grafana
     restart: unless-stopped
-    networks:
-      - fomalhaut-network
-    ports:
-      - "3000:3000"
-    volumes:
-      - ./grafana-storage:/var/lib/grafana
     environment:
       - GF_SECURITY_ALLOW_EMBEDDING=true
       - GF_AUTH_ANONYMOUS_ENABLED=true
       - GF_AUTH_ANONYMOUS_ORG_NAME=Main Org.
       - GF_AUTH_ANONYMOUS_ORG_ROLE=Viewer
       - GF_INSTALL_PLUGINS=yesoreyeram-infinity-datasource,operato-windrose-panel
+    networks:
+      - fomalhaut-network
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./grafana-storage:/var/lib/grafana
+    env_file:
+      - .env
 volumes:
   grafana-storage: {}

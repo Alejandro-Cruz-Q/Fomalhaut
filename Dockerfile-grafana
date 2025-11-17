@@ -1,9 +1,3 @@
-FROM grafana/grafana:latest
+FROM grafana/grafana
 
-USER root
-COPY init-grafana.sh /init-grafana.sh
-RUN chmod +x /init-grafana.sh \
-    && apk update \
-    && apk add --no-cache su-exec
-
-ENTRYPOINT ["/init-grafana.sh"]
+COPY provisioning /etc/grafana/provisioning
