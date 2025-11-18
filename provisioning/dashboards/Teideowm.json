@@ -18,7 +18,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 1,
+  "id": 3,
   "links": [],
   "liveNow": true,
   "panels": [
@@ -250,7 +250,7 @@
           "root_selector": "",
           "source": "url",
           "type": "json",
-          "url": "https://api.openweathermap.org/data/2.5/weather?q=la laguna&appid=db78f0448de705644eb697eb16a90a03&units=metric",
+          "url": "https://api.openweathermap.org/data/2.5/weather?lat=28.18&lon=-16.30&appid=db78f0448de705644eb697eb16a90a03&units=metric",
           "url_options": {
             "data": "",
             "method": "GET"
@@ -410,7 +410,7 @@
           "root_selector": "",
           "source": "url",
           "type": "json",
-          "url": "https://api.openweathermap.org/data/2.5/weather?q=la%20laguna&appid=db78f0448de705644eb697eb16a90a03&units=metric",
+          "url": "https://api.openweathermap.org/data/2.5/weather?lat=28.18&lon=-16.30&appid=db78f0448de705644eb697eb16a90a03&units=metric",
           "url_options": {
             "data": "",
             "method": "GET"
@@ -497,7 +497,7 @@
           "root_selector": "",
           "source": "url",
           "type": "json",
-          "url": "https://api.openweathermap.org/data/2.5/weather?q=la laguna&appid=db78f0448de705644eb697eb16a90a03&units=metric",
+          "url": "https://api.openweathermap.org/data/2.5/weather?lat=28.18&lon=-16.30&appid=db78f0448de705644eb697eb16a90a03&units=metric",
           "url_options": {
             "data": "",
             "method": "GET"
@@ -850,6 +850,10 @@
               {
                 "color": "green",
                 "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
               }
             ]
           },
@@ -903,7 +907,7 @@
           "root_selector": "list",
           "source": "url",
           "type": "json",
-          "url": "api.openweathermap.org/data/2.5/forecast?q=la laguna&appid=db78f0448de705644eb697eb16a90a03&units=metric",
+          "url": "api.openweathermap.org/data/2.5/forecast?lat=28.18&lon=-16.30&appid=db78f0448de705644eb697eb16a90a03&units=metric",
           "url_options": {
             "data": "",
             "method": "GET"
@@ -963,7 +967,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "orange",
+                "color": "blue",
                 "value": 0
               }
             ]
@@ -1018,7 +1022,7 @@
           "root_selector": "list",
           "source": "url",
           "type": "json",
-          "url": "api.openweathermap.org/data/2.5/forecast?q=la laguna&appid=db78f0448de705644eb697eb16a90a03&units=metric",
+          "url": "api.openweathermap.org/data/2.5/forecast?lat=28.18&lon=-16.30&appid=db78f0448de705644eb697eb16a90a03&units=metric",
           "url_options": {
             "data": "",
             "method": "GET"
@@ -1131,7 +1135,7 @@
           "root_selector": "list",
           "source": "url",
           "type": "json",
-          "url": "api.openweathermap.org/data/2.5/forecast?q=la laguna&appid=db78f0448de705644eb697eb16a90a03&units=metric",
+          "url": "api.openweathermap.org/data/2.5/forecast?lat=28.18&lon=-16.30&appid=db78f0448de705644eb697eb16a90a03&units=metric",
           "url_options": {
             "data": "",
             "method": "GET"
@@ -1266,7 +1270,7 @@
           "root_selector": "",
           "source": "url",
           "type": "json",
-          "url": "https://api.openweathermap.org/data/2.5/weather?q=la laguna&appid=db78f0448de705644eb697eb16a90a03&units=metric",
+          "url": "https://api.openweathermap.org/data/2.5/weather?lat=28.18&lon=-16.30&appid=db78f0448de705644eb697eb16a90a03&units=metric",
           "url_options": {
             "data": "",
             "method": "GET"
@@ -1394,7 +1398,7 @@
           "root_selector": "sys",
           "source": "url",
           "type": "json",
-          "url": "https://api.openweathermap.org/data/2.5/weather?q=la laguna&appid=db78f0448de705644eb697eb16a90a03&units=metric",
+          "url": "https://api.openweathermap.org/data/2.5/weather?lat=28.18&lon=-16.30&appid=db78f0448de705644eb697eb16a90a03&units=metric",
           "url_options": {
             "data": "",
             "method": "GET"
@@ -1418,7 +1422,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Open Weather Map La Laguna",
-  "uid": "adkrmc7",
-  "version": 47
+  "title": "Open Weather Map Teide",
+  "uid": "teideowm",
+  "version": 1
 }
