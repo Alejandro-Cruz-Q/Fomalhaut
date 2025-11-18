@@ -20,8 +20,6 @@ services:
     command: npm run dev
 
   grafana:
-    build:
-      dockerfile: Dockerfile-grafana
     image: grafana/grafana
     container_name: grafana
     restart: unless-stopped
