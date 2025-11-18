@@ -5,8 +5,7 @@ import "./Weather.css";
 // Lista de estaciones de Open Weather Map con sus URLs de dashboards públicos de Grafana
 const stations = [
   // { id: 1, name: "La Laguna Station", url: "http://localhost:3000/public-dashboards/312144cbb70044f1961b518f5ca5cc8e" },
-  { id: 1, name: "La Laguna Station", url: "http://localhost:3000/public-dashboards/feab7702208848deae273e0196d9c7aa" },
-  // { id: 2, name: "Observatorio del Teide Station", url: "http://localhost:3000/public-dashboards/ef4035707e2d4b83aa5cb13fd3b40492" },
+  { id: 1, name: "La Laguna Station", url: "http://localhost:3000/goto/bf4ird9sftrlse?orgId=1" },
   { id: 2, name: "Observatorio del Teide Station", url: "http://localhost:3000/public-dashboards/8ea25dca921e4debbd9c3dbd6e7f7352" },
   { id: 3, name: "Observatorio del Roque de los Muchachos Station", url: "http://localhost:3000/public-dashboards/0ef46bf8af1b41c1b94dfc0cc8164734" },
 ];
