@@ -6,7 +6,7 @@ import "./Weather.css";
 const stations = [
   { id: 1, name: "La Laguna Station", url: "http://localhost:3000/goto/bf4ird9sftrlse?orgId=1" },
   { id: 2, name: "Observatorio del Teide Station", url: "http://localhost:3000/goto/ff4iuh8thejnkd?orgId=1" },
-  { id: 3, name: "Observatorio del Roque de los Muchachos Station", url: "http://localhost:3000/goto/ef4iug6fal7nka?orgId=1" },
+  { id: 3, name: "Observatorio del Roque de los Muchachos Station", url: "http://localhost:3000/public-dashboards/c09afef2e9394038ba024e59e875023f" },
 ];
 
 // Lista de las futuras estaciones TEIDESAT con sus URLs de dashboards públicos de Grafana
