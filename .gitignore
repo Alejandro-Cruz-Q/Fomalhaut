@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 grafana/data
 grafana-storage/
-grafana-storage/*
+grafana-storage/grafana.db
