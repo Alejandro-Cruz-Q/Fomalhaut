@@ -37,6 +37,6 @@ services:
       - '3000:3000'
     volumes:
       - ./grafana-storage:/var/lib/grafana
-    user: "472:472"
+    user: "${HOST_UID}:${HOST_GID}"
 volumes:
   grafana-storage: {}
