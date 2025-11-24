@@ -4,9 +4,9 @@ import "./Weather.css";
 
 // Lista de estaciones de Open Weather Map con sus URLs de dashboards públicos de Grafana
 const stations = [
-  { id: 1, name: "La Laguna Station", url: "http://localhost:3000/d/lalagunaowm/open-weather-map-la-laguna" },
-  { id: 2, name: "Observatorio del Teide Station", url: "http://localhost:3000/d/teideowm/open-weather-map-teide" },
-  { id: 3, name: "Observatorio del Roque de los Muchachos Station", url: "http://localhost:3000/d/roquemuchachosowm/open-weather-map-roque-de-los-muchachos" },
+  { id: 1, name: "La Laguna Station", url: "http://localhost:3000/d/lalagunaowm/open-weather-map-la-laguna?kiosk" },
+  { id: 2, name: "Observatorio del Teide Station", url: "http://localhost:3000/d/teideowm/open-weather-map-teide?kiosk" },
+  { id: 3, name: "Observatorio del Roque de los Muchachos Station", url: "http://localhost:3000/d/roquemuchachosowm/open-weather-map-roque-de-los-muchachos?kiosk" },
 ];
 
 // Lista de las futuras estaciones TEIDESAT con sus URLs de dashboards públicos de Grafana
