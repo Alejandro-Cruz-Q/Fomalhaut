@@ -25,7 +25,7 @@
     {
       "datasource": {
         "type": "yesoreyeram-infinity-datasource",
-        "uid": "ef21fb8a3s7i8d"
+        "uid": "PD0067CAD9A63E081"
       },
       "fieldConfig": {
         "defaults": {
@@ -230,7 +230,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "12.2.1",
+      "pluginVersion": "12.3.0",
       "targets": [
         {
           "columns": [],
@@ -359,7 +359,7 @@
     {
       "datasource": {
         "type": "yesoreyeram-infinity-datasource",
-        "uid": "ef21fb8a3s7i8d"
+        "uid": "PD0067CAD9A63E081"
       },
       "fieldConfig": {
         "defaults": {},
@@ -423,7 +423,7 @@
     {
       "datasource": {
         "type": "yesoreyeram-infinity-datasource",
-        "uid": "ef21fb8a3s7i8d"
+        "uid": "PD0067CAD9A63E081"
       },
       "fieldConfig": {
         "defaults": {
@@ -485,7 +485,7 @@
         "showThresholdMarkers": true,
         "sizing": "auto"
       },
-      "pluginVersion": "12.2.1",
+      "pluginVersion": "12.3.0",
       "targets": [
         {
           "columns": [],
@@ -802,7 +802,7 @@
     {
       "datasource": {
         "type": "yesoreyeram-infinity-datasource",
-        "uid": "ef21fb8a3s7i8d"
+        "uid": "PD0067CAD9A63E081"
       },
       "fieldConfig": {
         "defaults": {
@@ -880,7 +880,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "12.2.1",
+      "pluginVersion": "12.3.0",
       "targets": [
         {
           "columns": [
@@ -916,7 +916,7 @@
     {
       "datasource": {
         "type": "yesoreyeram-infinity-datasource",
-        "uid": "ef21fb8a3s7i8d"
+        "uid": "PD0067CAD9A63E081"
       },
       "fieldConfig": {
         "defaults": {
@@ -995,7 +995,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "12.2.1",
+      "pluginVersion": "12.3.0",
       "targets": [
         {
           "columns": [
@@ -1031,7 +1031,7 @@
     {
       "datasource": {
         "type": "yesoreyeram-infinity-datasource",
-        "uid": "ef21fb8a3s7i8d"
+        "uid": "PD0067CAD9A63E081"
       },
       "fieldConfig": {
         "defaults": {
@@ -1108,7 +1108,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "12.2.1",
+      "pluginVersion": "12.3.0",
       "targets": [
         {
           "columns": [
@@ -1186,7 +1186,8 @@
     },
     {
       "datasource": {
-        "uid": "ef21fb8a3s7i8d"
+        "type": "yesoreyeram-infinity-datasource",
+        "uid": "PD0067CAD9A63E081"
       },
       "fieldConfig": {
         "defaults": {
@@ -1243,7 +1244,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "12.2.1",
+      "pluginVersion": "12.3.0",
       "targets": [
         {
           "columns": [
@@ -1324,7 +1325,7 @@
     {
       "datasource": {
         "type": "yesoreyeram-infinity-datasource",
-        "uid": "ef21fb8a3s7i8d"
+        "uid": "PD0067CAD9A63E081"
       },
       "fieldConfig": {
         "defaults": {
@@ -1369,7 +1370,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "12.2.1",
+      "pluginVersion": "12.3.0",
       "targets": [
         {
           "columns": [
@@ -1420,5 +1421,5 @@
   "timezone": "browser",
   "title": "Open Weather Map La Laguna",
   "uid": "lalagunaowm",
-  "version": 47
+  "version": 1
 }

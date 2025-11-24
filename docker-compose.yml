@@ -36,7 +36,6 @@ services:
     ports:
       - '3000:3000'
     volumes:
-      - ./grafana-storage:/var/lib/grafana
+      - ./provisioning:/etc/grafana/provisioning
+      - ./dashboards-grafana:/var/lib/grafana/dashboards
     user: "${HOST_UID}:${HOST_GID}"
-volumes:
-  grafana-storage: {}
