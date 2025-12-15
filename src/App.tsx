@@ -14,7 +14,7 @@ import StationDashboards from "./components/pages/weather/StationDashBoards";
 
 function App() {
   return (
-    <BrowserRouter basename="/Fomalhaut">
+    <BrowserRouter basename="/Fomalhaut/">
       <div className="app-container">
         <TopPanel />
         <div className="content-wrapper">
