@@ -8,6 +8,16 @@
   </head>
   <body>
     <div id="root"></div>
+    <script type="module">
+      // Recover the redirect from 404.html BEFORE React loads
+      (function() {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect) {
+          window.history.replaceState(null, null, '/Fomalhaut' + redirect);
+        }
+      })();
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
